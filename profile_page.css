@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background: #f5f5f5;
+}
+
+.container {
+    display: flex;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 220px;
+    background: #C09C1B;
+    height: 100vh;
+    padding-top: 30px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul a,
+.sidebar ul li {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.sidebar ul li:hover {
+    background: #b08c15;
+}
+
+/* MAIN CONTENT */
+.main {
+    flex: 1;
+    padding: 20px;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.user-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* PROFILE CONTENT */
+.profile-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.profile-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.user-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.user-info h3 {
+    font-size: 24px;
+}
+
+.info-box {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-box label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.info-box input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+/* BUTTONS */
+.btn-row {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 14px;
+    border: none;
+    cursor: pointer;
+    background: #C09C1B;
+    color: white;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: #b18b15;
+}
+
+.export {
+    background: #444;
+}
+
+.export:hover {
+    background: #222;
+}
+
+.footer-text {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
